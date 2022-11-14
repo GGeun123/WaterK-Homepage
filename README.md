@@ -16,8 +16,14 @@
 
 # 결과물 
 - 결과 사진
-<p align="center"><img src = "https://user-images.githubusercontent.com/76591698/188826868-5d4f9c9c-2a19-4215-b472-e34891cd96af.png" width="50%" height="50%" ></p>
-<p align="center"><사용자 페이지></p>
-<p align="center"><img src = "https://user-images.githubusercontent.com/76591698/188828087-143e2f0b-3fd2-4b79-b43a-c3107f5e2e7e.png" width="50%" height="50%" ></p>
-<p align="center"><로그인 페이지></p>
+<p align="center"><img src = "https://user-images.githubusercontent.com/107012295/201587194-434dc835-eab6-480e-931e-84a06d0bd558.png" width="50%" height="50%" ></p>
+<p align="center"><메인 페이지></p>
+<p align="center"><img src = "https://user-images.githubusercontent.com/107012295/201587244-a29395e2-ebfc-4e94-a4fb-1914940861be.png" width="50%" height="50%" ></p>
+<p align="center"><회원가입></p>
+<p align="center"><img src = "https://user-images.githubusercontent.com/107012295/201587179-29d15644-b748-4fc0-8715-131ac6161dab.png" width="50%" height="50%" ></p>
+<p align="center"><게시판></p>
+<p align="center"><img src = "https://user-images.githubusercontent.com/107012295/201587222-c1c925ad-27d2-480d-9ddf-93ad720fe977.png" width="50%" height="50%" ></p>
+<p align="center"><슬라이드></p>
+ 
+ 
 

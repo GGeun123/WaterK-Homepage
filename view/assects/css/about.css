@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+/* <div class=meta-header> */
+.meta-header{
+  position: relative;
+  background-image: url('https://www.ctmagazine.kr/wp-content/uploads/2021/10/Global-Internet-Of-Things-IoT-Device-Management-Market.jpg');
+  height: 300px;
+  background-size: cover;
+}
+.img-cover{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.meta-header .meta-content{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  text-align: center;
+  color: white;
+}
+.meta-content h1{
+  font-weight: 700;
+}
+.meta-content p{
+  font-size: 1.0rem;
+}
+.meta-content a{
+  color: white;
+}
+
+
+/* <div class= container> */
+/* <div class= list> */
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'STIX Two Math';
+}
+.list .list-ul{
+  list-style: none;
+  display: flex;
+  margin: auto;
+}
+.list-ul li{
+  padding: 30px 60px;
+  font-size: 2.0rem;;
+}
+.list a{
+  color: #8c8c8c;
+  text-decoration: none;
+}
+@media screen and (max-width: 800px){
+  .list-ul li{
+    padding: 30px 50px;
+    font-size: 10px;
+  }
+}
+.list-ul li:hover{color: #3b5386;}
+.list-ul li a{position: relative; text-decoration: none;}
+.list-ul li a:hover{color:#8c8c8c;}
+.list-ul li a::after{
+   content: '';
+   width: 0%;
+   left: 50%;
+   height: 1px;
+   display: block;
+   position: absolute;
+   margin-top: 3px;
+}
+.list-ul li:hover > a::after{
+   content: '';
+   width: 100%;
+   left:0px;
+   height: 1px;
+   display: block;
+   margin-top: 3px;
+   border-bottom: 2px solid #3b5386;
+}
+
+
+/* <div class= intro> */
+.intro{
+   margin-left: 30px;
+   margin-top: 100px;
+}
+.about_li, .about_active, .about_geo, .about_history{
+   transition-property: active;
+   transition-duration: 2s;
+}
+.about_li, .about_active, .about_geo, .about_history h2{
+   padding-top: 5%;
+}
+.about_li h2{
+   font-weight: 700;
+   line-height: 45px;
+}
+.about_li p{
+   margin-top: 30px;
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 30px;
+}
+@media screen and(max-width: 800px){
+  .about_li h2{
+    font-size: 3.5rem;
+ }
+  .about_li p{
+    font-size: 1.0rem;
+ }
+}
+
+
+/* <div class= about_info> */
+.about_info{
+   margin-top: 100px; 
+   width: 100%;
+}
+.about_info .table01{
+   width: 100%;
+   font-size: 1.8rem;
+   line-height: 40px;
+   box-shadow: 2px 2px 2px gray;
+}
+.table01 .col_th{
+   background-color: #282828;
+}
+.table-title{
+   width: 20%;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
+.detail-info{
+   width: 80%;
+   padding-left: 30px;
+   border: 1px solid lightgray;
+}
+.detail-info span{
+   font-size: 1.9rem;
+   font-weight: bold;
+}
+.detail-info ul{
+   padding: 0px;
+}
+.detail-info .detail-dd{
+   display: inline-block;
+}
+.detail-info .detail-box{
+   display: inline-block;
+}
+.detail-box{
+   border: 1px solid #aaaaaa;
+   padding: 10px;
+   margin-right: 15px;
+}
+
+
+/* <div class= about_play> */
+.about_play{
+   margin-top: 150px;
+}
+.about_play .play01{
+   text-align: center;
+   font-weight: 500;
+}
+.play01 h2{
+   margin-bottom: 50px;
+}
+.play01 span{
+   color: #34C6BE;
+}
+.play01 iframe{
+   width: 550px;
+   height: 315px;
+}
+
+
+/* <div class= about_history> */
+.about_history{
+   margin-top: 150px;
+}
+.about_history .history{
+   text-align: center;
+   font-weight: 500;
+}
+.history h2{
+   margin-bottom: 50px;
+}
+.history span{
+   color: #34C6BE;
+}
+
+
+
+/* <div class= about_patent> */
+.about_patent{
+   margin-top: 150px;
+}
+.about_patent .patent{
+   text-align: center;
+   font-weight: 500;
+}
+.patent h2{
+   margin-bottom: 50px;
+}
+.patent span{
+   color: #34C6BE;
+}
+.patent-info{
+   display: inline-block;
+}
+.patent-info .patent-ul{
+   width: 100%;
+   padding: 0;
+   margin-bottom: 30px;
+}
+.patent-ul li{
+   display: inline-block;
+   width: 30%;
+}
+.patent-ul li img{
+   width: 90%;
+}
+
+
+/* <div class= about_award> */
+.about_award{
+   margin-top: 150px;
+}
+.about_award .award{
+   text-align: center;
+   font-weight: 500;
+}
+.award h2{
+   margin-bottom: 50px;
+}
+.award span{
+   color: #34C6BE;
+}
+.award-info .award-ul{
+   width: 100%;
+   padding: 0;
+   margin-bottom: 30px;
+   text-align: center;
+   list-style: none;
+}
+.award-ul li{
+   width: 100%;
+}
+.award-ul li img{
+   width: 90%;
+}
+
+
+
+
+/* <div class= geo> */
+.about_geo{
+   margin-top: 150px;
+}
+.about_geo .geo{
+   text-align: center;
+   font-weight: 500;
+}
+.geo span{
+   color: #34C6BE;
+}
+#map{
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+}
+.detail-table .table{
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 70px; 
+  margin-top: 50px;  
+}

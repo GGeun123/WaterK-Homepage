@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+.meta-header{
+   position: relative;
+   background-image: url('https://images.pexels.com/photos/4087031/pexels-photo-4087031.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+   height: 300px;
+   background-size: cover;
+}
+.meta-header .meta-content{
+   position: absolute;
+   top: 40%;
+   left: 45%;
+   text-align: center;
+   color: white;
+   line-height: 50px;
+}
+.wrap{
+  background-color: #f0efef;
+}
+.container{
+  margin: 0 auto;
+}
+.swas{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.swas span{
+  color: #a0a0a0;
+  font-size: 1.8rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.swas-info{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px lightgray;
+  padding: 50px 15px 20px 25px;
+}
+.info-img{
+  width: 30%;
+  margin-right: 3%;
+}
+.info-img img{
+  width: 100%;
+  height: 250px;
+  top: 20px;
+}
+.info .info-content{
+  width: 65%;
+  font-size: 1.1rem;
+}
+.info-content span{
+  color: rgb(97, 93, 93);
+}
+.info-content .content-detail{
+  line-height: 25px;
+}
+
+
+.detail-title01{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.detail-title01 h3{
+  margin-bottom: 20px;
+}
+.detail-title01 h3 span{
+  color: #34C6BE;
+}
+.detail-img-dd{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+}
+.detail-img-dd img{
+  width: 37%;
+  display: flex;
+  margin-right: 30px;
+}
+.detail-img-dd p{
+  position: relative;
+  width: 100%;
+  top: 40px;
+  font-size: 1.6rem;
+  line-height: 33px;
+  font-weight: 500;
+}
+.detail-img-dd p span{
+  color: #34C6BE;
+  font-weight: bold;
+}
+
+.detail-title02{
+  margin-top: 120px;
+}
+.detail-title02 h3{
+  margin-bottom: 20px;
+}
+.detail-title02 h3 span{
+  color: #34C6BE;
+}
+
+.detail-title03{
+  margin-top: 120px;
+}
+.detail-title03 h3{
+  margin-bottom: 20px;
+}
+.detail-title03 h3 span{
+  color: #34C6BE;
+}
+.detail-title03 .video{
+  margin-top: 30px;
+}
+.detail-img .detail-content{
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  background-color: #ffffff;
+  position: relative;
+  width: 100%;
+  top: 30px;
+  font-size: 1.6rem;
+  line-height: 33px;
+  padding:10px;
+}
+
+
+
+/* SWMIS */
+.swmis{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.swmis span{
+  color: #a0a0a0;
+  font-size: 1.8rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.swmis-img{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: center;
+}
+.swmis-img p{
+  font-size: 1.8rem;
+  margin-top: 40px;
+  line-height: 40px;
+}
+
+
+
+/* SDFS */
+.sdfs{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+}
+.sdfs span{
+  color: #a0a0a0;
+  font-size: 1.8rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.sdfs-img{
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 5%;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.sdfs-img li{
+  display: inline-block;
+}
+.sdfs-img1{
+  width: 35%;
+}
+.sdfs-img1 img{
+  width: 80%;
+}
+.sdfs-img2{
+  width: 60%;
+}
+.sdfs-img2 img{
+  width: 90%;
+}
+.sdfs-img p{
+  font-size: 1.8rem;
+  margin-top: 40px;
+  line-height: 40px;
+}
+
+
+/* 프로젝트 */
+.detail-title04{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.detail-title04 h3{
+  margin-bottom: 20px;
+}
+.detail-title04 h3 span{
+  color: #34C6BE;
+}
+.cards-wrapper .card-grid-space a{
+  text-decoration: none;
+}

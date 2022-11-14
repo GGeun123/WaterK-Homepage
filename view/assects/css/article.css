@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.meta-header{
+   position: relative;
+   width: 100%;
+   background-image: url('https://cdn.pixabay.com/photo/2018/01/04/19/51/water-3061496_960_720.jpg');
+   height: 300px;
+   background-size: cover;
+}
+.meta-header .meta-content{
+   position: absolute;
+   top: 40%;
+   left: 46%;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+   line-height: 50px;
+}
+
+
+/* section */
+.wrap{
+  background-color: #f0efef;
+}
+.container{
+  width:100%;
+}
+.container h2{
+  padding: 10% 10% 3% 10%;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+/* 내용 */
+.h2{
+  text-align: center;
+  font-weight: 500;
+}
+.about_active{
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+/* 보도자료01 */
+.active01{
+  width: 100%;
+  display: flex;
+}
+.active01 .active_img{
+  width: 25%;
+}
+.active_img img{
+  width: 100%;
+  height: 180px;
+}
+.active01 .active_content{
+  background-color: #ffffff;
+  padding: 30px;
+  width: 80%;
+}
+.active_content .active_title{
+  color: black;
+  text-decoration: none;
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+.active_content .active_sub{
+  color: black;
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+.active_content .active_date{
+  color: black;
+  text-decoration: none;
+  font-size: 1.4rem;
+  float: right;
+}
+
+
+/* 보도자료02 */
+.active02{
+  margin-bottom: 50px;
+  width: 100%;
+  display: flex;
+}
+.active02 .active_img{
+  width: 25%;
+}
+.active02 .active_content{
+  background-color: #ffffff;
+  padding: 30px;
+  width: 80%;
+}
+
+
+
+/* 글쓰기 버튼 */
+.button{
+  margin: 3%;
+  float: right;
+}
+.button button{
+  background-color: rgb(235, 225, 207);
+  padding: 10px;
+  border: 1px solid oldlace;
+}
+button a{
+  color:#061027;
+  text-decoration: none;
+}
+button a:hover{
+  color:coral;
+  text-decoration: none;
+}

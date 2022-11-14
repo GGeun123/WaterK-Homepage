@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* meta-header */
+.meta-header{
+   position: relative;
+   background-image: url('https://cdn.pixabay.com/photo/2018/01/04/19/51/water-3061496_960_720.jpg');
+   height: 300px;
+   background-size: cover;
+}
+.meta-header .meta-content{
+   position: absolute;
+   top: 40%;
+   left: 46%;
+   text-align: center;
+   color: white;
+   line-height: 50px;
+}
+
+
+/* section2 */
+.wrap{
+  background-color: #f0efef;
+}
+.read-box{
+  width:100%;
+}
+.form-toal p{
+  margin-top: 60px;
+  text-align: left;
+  vertical-align: middle;
+}
+.form-toal h2{
+  text-align: center;
+  margin-bottom: 7%;
+}
+.form-toal hr{
+  border: 1px solid rgb(0, 0, 0);
+}
+
+
+
+/* table 스타일 */
+.table{
+  font-size: 1.8rem;
+  margin-top: 30px;
+  width: 100%;
+}
+.table-title h4{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.table-title hr{
+  border-color: rgba(131, 126, 126, 0.5);
+}
+.table-info{
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+.table-info ul{
+  list-style: none;
+  padding: 0;
+}
+.table-info li{
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.table-info hr{
+  border-color: rgba(189, 188, 188, 0.3);
+}
+.table-img{
+  text-align: center;
+  padding: 5%;
+  font-size: 1.7rem;
+}
+.table-img img{
+  width: 80%;
+  margin: 2%;
+}
+.table hr{
+  border-color: rgba(189, 188, 188, 0.3);
+}
+
+/* 버튼 style */
+.button{
+  margin: 2%;
+  text-align: right;
+}
+.button button{
+  background-color: rgb(235, 225, 207);
+  padding: 10px;
+  border: 1px solid oldlace;
+}
+button a{
+  color:#061027;
+  text-decoration: none;
+}
+button a:hover{
+  color:coral;
+  text-decoration: none;
+}

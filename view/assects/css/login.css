@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.warp{
+  width: 100%;
+  background-color: #f0efef;
+}
+.login{
+  margin: 10% 30% 10% 30%;
+}
+.login-box{
+  background-color: aliceblue;
+  padding: 20px 20px 50px 20px;
+  text-align: center;
+}
+.login-box h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.login-info{
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+  padding: 50px 50px 10px 50px;
+  display: inline-block;
+  list-style: none;
+}
+.login-info ul{
+  text-align: center;
+}
+.login-info li{
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 50px;
+}
+.login-info .list-title{
+  width: 12%;
+}
+.login-info .list-info{
+  width: 70%;
+}
+.login-info .button{
+  float: right;
+}
+.login-info .login-detail{
+  margin-bottom: 10px;
+}
+.button{
+  margin-bottom: 10px;
+}
+.button button{
+  margin-right: 5px;
+  background-color: rgb(189, 217, 253);
+  border: 1px solid rgb(189, 217, 253);
+}
+.button button:hover{
+  background-color: rgb(189, 217, 253);
+  border: 1px solid rgb(189, 217, 253);
+  color: black;
+}
+.button a{
+  text-decoration: none;
+  color: #f0efef;
+  margin-right: 5px;
+  background-color: rgb(189, 217, 253);
+  border: 1px solid rgb(189, 217, 253);
+}
+.button a{
+  background-color: rgb(189, 217, 253);
+  border: 1px solid rgb(189, 217, 253);
+  color: black;
+}

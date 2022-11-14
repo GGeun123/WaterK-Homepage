@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+/* section */
+.wrap{
+  background-color: #f0efef;
+}
+.container{
+  width:100%;
+}
+.container h2{
+  padding: 10% 10% 2% 10%;
+  text-align: center;
+  font-weight: bold;
+}
+.join{
+  text-align: center;
+}
+.join-info{
+  width: 50%;
+  padding: 50px 50px 10px 50px;
+  display: inline-block;
+  list-style: none;
+}
+.join-info ul{
+  margin: 0px 0px 5px 0px;
+  padding: 0;
+  text-align: center;
+}
+.join-info li{
+  display: inline-block;
+  font-size: 1.3rem;
+  line-height: 70px;
+}
+.join-info input{
+  height: 50px;
+}
+/* id */
+.join-info .list-title_id{
+  width: 12%;
+}
+.join-info .list-info_id{
+  width: 60%;
+}
+.join-info .list-btn_id{
+  width: 20%;
+  line-height: 41px;
+}
+
+/* pwd -> other */
+.join-info .list-title{
+  width: 12%;
+}
+.join-info .list-info{
+  width: 81%;
+}
+
+/* birth */
+.join-info .list-title_birth{
+  width: 12%;
+}
+.join-info .list-info_birth{
+  width: 26.5%;
+}
+
+/* gender */
+.join-info .list-info select{
+  width: 100%;
+}
+
+/* tel */
+.join-info .list-info-tel{
+  width: 25%;
+}
+
+
+
+/* btn */
+.join-info .button{
+  width: 100%;
+  margin: 20px 30px;
+}
+.button button{
+  width: 94%;
+  background-color: rgb(135, 148, 194);
+  border: 1px solid rgb(135, 148, 194);
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color:rgb(255, 255, 255)
+}
+.button button:hover{
+  background-color: rgb(135, 148, 194);
+  border: 1px solid rgb(135, 148, 194);
+  color: rgb(0, 0, 0);
+}

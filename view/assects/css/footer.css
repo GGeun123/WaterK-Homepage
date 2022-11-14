@@ -1,0 +1,27 @@
+/* FOOTER */
+.footer{
+  color:#8a8787;
+  background-color: #383d3d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 7% 3% 7%;
+}
+.footer .logo{
+  width: 20%;
+}
+.logo p{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.footer .address{
+  width: 50%;
+  font-size: 1.1rem;
+  display: flex;
+  color: #8a8787;
+}
+.footer .footer-tel{
+  width: 20%;
+  font-size: 1.1rem;
+  display: flex;
+}

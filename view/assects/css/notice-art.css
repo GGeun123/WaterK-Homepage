@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.meta-header{
+   position: relative;
+   background-image: url('https://cdn.pixabay.com/photo/2018/01/04/19/51/water-3061496_960_720.jpg');
+   height: 300px;
+   background-size: cover;
+}
+.meta-header .meta-content{
+   position: absolute;
+   top: 40%;
+   left: 46%;
+   text-align: center;
+   color: white;
+   line-height: 50px;
+}
+.wrap{
+  background-color: #f0efef;
+}
+.container{
+  margin: 0 auto;
+}
+.contact{
+  width:100%;
+}
+.contact p{
+  margin-top: 60px;
+  text-align: left;
+  vertical-align: middle;
+}
+.contact h2{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.contact hr{
+  color: #a0b8cc;
+}
+.button{
+  width: 100%;
+  margin-right: 20px;
+}
+.button button{
+  float: right;
+  background-color: #2570ad;
+  border: 1px solid #f0efef;
+  border-radius: 0.5rem;
+  padding: 11px;
+}
+.button a{
+  color: #f0efef;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding:10px;
+}
+.button a:hover{
+  text-decoration: none;
+  color: #a0b8cc;
+}
+
+
+
+.table{
+  font-size: 1.8rem;
+  margin-top: 30px;
+}
+.table .table-title{
+  width: 20%;
+  padding: 12px;
+  text-align: center;
+}
+.table .table-info{
+  padding: 10px;
+}
+.table .form-content{
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+.form-tel .table-info{
+  display: inline-block;
+  width: 100%;
+}
+.form-tel select{
+  width: 10%;
+  display: inline-block;
+}
+.form-tel input{
+  width: 10%;
+  display: inline-block;
+}
+
+.form-email .table-info{
+  display: inline-block;
+  width: 100%;
+}
+.form-email select{
+  width: 30%;
+  display: inline-block;
+}
+.form-email input{
+  width: 30%;
+  display: inline-block;
+}
+
+
+/* 버튼 */
+.form-btn{
+  float: right;
+  margin: 3%;
+}
+.form-btn input{
+  color:black;
+  background-color: rgb(235, 225, 207);
+  border: 1px solid oldlace;
+}
+.form-btn a{
+  color:black;
+  background-color: rgb(235, 225, 207);
+  border: 1px solid oldlace;
+}

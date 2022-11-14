@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+
+/* selection */
+.banner{
+    position: relative;
+    height: 850px;
+    background-image: url('https://c.pxhere.com/photos/c7/43/waterfall_water_level_movement_dynamics_water-1102853.jpg!d');
+    background-size: cover;
+}
+.banner .banner-content{
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    color: #fff;
+}
+.banner .banner-content .swiq{
+    font-size: 4.0rem;
+    margin-bottom: 50px;
+    color: rgb(3, 50, 151);
+}
+.swiq .swiq_meta{
+    font-size: 4.0rem;
+    font-weight: bold;
+    background: linear-gradient( to right, rgb(0, 18, 119), rgb(0, 60, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-content h1{
+    font-size: 3.0rem;
+    font-weight: bold;
+    background: linear-gradient( to right top, rgb(160, 235, 248), rgb(0, 60, 255));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-content .p_meta{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.banner-content p{
+    line-height: 37px;
+    font-size: 1.5rem;
+}
+@media screen and (max-width: 800px){
+    .banner .banner-content{
+        font-size: 12px;
+    }
+}
+
+
+.banner .visitor{
+    display: inline-block;
+    position: relative;
+    left: 80%;
+    top: 85%;
+}
+.visitor .li-box{
+    margin: 0px;
+}
+.visitor .li-box li{
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #4b4b4b;
+}
+
+
+
+.section01{
+    width: 100%;
+    background-color: #f0efef;
+}
+.index_business h1{
+    font-family: Titillium Web, '맑은 고딕', '돋움', Dotum, '굴림', Gulim, Sans-serif;
+    margin: 0px;
+    color:rgb(32, 32, 155);
+    margin-bottom: 20px;
+}
+.index_business .business-title{
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin: 0px;
+}
+.index_business .business-content{
+    font-size: 1.6rem;
+    margin-top: 15px;
+}
+.index_business{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+.index_business .business-box{
+    display: flex;
+    margin-bottom: 30px;
+}
+.business-box .video{
+    width: 40%;
+}
+.business-box .animator{
+    width: 60%;
+}
+.video img{
+    width: 50%;
+}
+
+.fade-in-box{
+    display: inline-block;
+}
+.fade-position01 {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    padding: 10px;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    text-align: center;
+}
+.fade-img01 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.fade-position02 {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 22%;
+    padding: 10px;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    text-align: center;
+}
+.fade-img02 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.fade-position03 {
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    top: 22%;
+    padding: 10px;
+    animation: fadein 5s;
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    text-align: center;
+}
+.fade-img03 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+    overflow: hidden;
+}
+.fade-in-box p{
+    color:rgb(72, 85, 124);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0px;
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.index_business .youtube-info p{
+    font-size: 1.4rem;
+}
+.youtube-info a{
+    color: rgb(59, 161, 187);
+    font-weight: bold;
+}
+@keyframes blink-effect{
+    50% {opacity: 0;}
+} 
+.blink { 
+    animation: blink-effect 1s step-end infinite; 
+}
+
+
+.section02{
+    width: 100%;
+    background-color: #f0efef;
+    font-family:  system-ui;
+    position: relative;
+    background-image: url('https://www.kiwatec.or.kr:8443/sample/template/wide/wide_kiwatec/img/main02.jpg');
+}
+.index_product01{
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.index_product01 h1{
+    font-family: Titillium Web, '맑은 고딕', '돋움', Dotum, '굴림', Gulim, Sans-serif;
+    margin: 0px 0px 20px 0px;
+    color:rgb(32, 32, 155);
+    vertical-align: middle;
+    position: relative;
+}
+.index_product01 p{
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin: 0px;
+    position: relative;
+}
+.index_product01 span{
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+.index_product01 .product-content{
+    display: flex;
+    vertical-align: middle;
+    position: relative;
+}
+.product-content span{
+    width:50%;
+    padding-top: 10%;
+    color:black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+}
+.product-content img{
+    width:35%;
+    height: 550px;
+    position: relative;
+}
+
+.index_product02{
+    padding-top: 5%;
+    padding-left: 10%;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.index_product02 h1{
+    font-family: Titillium Web, '맑은 고딕', '돋움', Dotum, '굴림', Gulim, Sans-serif;
+    margin: 0px 0px 20px 0px;
+    color:rgb(32, 32, 155);
+    vertical-align: middle;
+    position: relative;
+}
+.index_product02 p{
+    font-size: 3.0rem;
+    font-weight: bold;
+    margin: 0px;
+    position: relative;
+}
+.index_product02 span{
+    font-size: 2.0rem;
+    font-weight: bold;
+    margin: 0px;
+    color:rgb(255, 255, 255);
+    position: relative;
+}
+.index_product02 .product-content{
+    display: flex;
+    vertical-align: middle;
+    position: relative;
+}
+.product-content span{
+    width:50%;
+    padding-top: 10%;
+    color:black;
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+}
+.product-content img{
+    width:40%;
+    position: relative;
+}
+
+
+
+/* CONTAENT */
+.content{
+    height: 300px;
+    background-image: url('https://www.idunn.pro/wp-content/uploads/2015/11/content-marketing-question-ss-1920.jpg');
+}
+
+
+/* 리셋 CSS */
+* {margin:0;padding:0;box-sizing:border-box;}
+ul, li {list-style:none;}
+
+
+.slidebox {max-width:700px;margin:0 auto;position:relative;}
+.slidebox .slidelist {position:relative;white-space:nowrap;font-size:0;overflow:hidden;}
+.slidebox .slidelist .slideitem {position:relative;display:inline-block;vertical-align:middle;background-color:#fff;width:100%;transition:all 1s;}
+.slidebox .slidelist .slideitem > a {display:block;width:auto;position:relative;}
+.slidebox .slidelist .slideitem > a img {max-width:100%;}
+
+.slidebox .slide-control [class*="control"] label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:20px;border-radius:50%;cursor:pointer;}
+.slidebox .slide-control [class*="control"] label.prev {left:-50px;background:#333 url('./img/left-arrow.png') center center / 50% no-repeat;}
+.slidebox .slide-control [class*="control"] label.next {right:-50px;background:#333 url('./img/right-arrow.png') center center / 50% no-repeat;}
+
+[name="slide"] {display:none;}
+#slide01:checked ~ .slidelist .slideitem {left:0;}
+#slide02:checked ~ .slidelist .slideitem {left:-100%;}
+#slide03:checked ~ .slidelist .slideitem {left:-200%;}
+#slide04:checked ~ .slidelist .slideitem {left:-300%;}
+
+.slide-control [class*="control"] {display:none;}
+#slide01:checked ~ .slide-control .control01 {display:block;}
+#slide02:checked ~ .slide-control .control02 {display:block;}
+#slide03:checked ~ .slide-control .control03 {display:block;}
+#slide04:checked ~ .slide-control .control04 {display:block;}
